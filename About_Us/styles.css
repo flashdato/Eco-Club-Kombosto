@@ -15,7 +15,10 @@ html {
   padding: 0;
   box-sizing: border-box;
   transition: 0.5s;
-  font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+
+a{
+  font-family: none;
 }
 
 /* 
@@ -33,7 +36,7 @@ tetri xazi low-res fix */
   }
 }
 
-.title {
+.title5 {
   color: #fff;
   font-size: 10rem;
   stroke: 1px solid black;
@@ -59,17 +62,17 @@ tetri xazi low-res fix */
   }
 }
 
-.logo {
+.logo5 {
   width: 30%;
   animation: slide_qvemot 3s ease-in-out forwards;
 }
 
-.logo:hover {
+.logo5:hover {
   filter: contrast(80%);
   width: 31%;
 }
 
-.title:hover {
+.title5:hover {
   font-size: 10.2rem;
 }
 
@@ -444,18 +447,18 @@ i {
 }
 
 @media only screen and (max-width: 1360px) {
-  .title {
+  .title5 {
     font-size: 8rem;
   }
-  .title:hover {
+  .title5:hover {
     font-size: 8.2rem;
   }
 }
 @media only screen and (max-width: 1143px) {
-  .title {
+  .title5 {
     font-size: 6rem;
   }
-  .title:hover {
+  .title5:hover {
     font-size: 6.2rem;
   }
 }
@@ -514,6 +517,11 @@ i {
   }
 }
 
+.fa-bars{
+  font-size: 20px;
+
+}
+
 @media only screen and (max-width: 500px) {
   .second_part {
     height: 1000px;
@@ -533,19 +541,19 @@ i {
     justify-content: center;
     align-items: center;
   }
-  .logo {
+  .logo5 {
     margin-top: 2rem;
     width: 90%;
   }
-  .logo:hover {
+  .logo5:hover {
     width: 90.5%;
   }
 }
 @media only screen and (max-width: 541px) {
-  .title {
+  .title5 {
     font-size: 4rem;
   }
-  .title:hover {
+  .title5:hover {
     font-size: 4.2rem;
   }
   .cards {
@@ -569,10 +577,10 @@ i {
 }
 
 @media only screen and (max-width: 405px) {
-  .title {
+  .title5 {
     font-size: 2rem;
   }
-  .title:hover {
+  .title5:hover {
     font-size: 2.1rem;
   }
   .first_part {
